@@ -1,2 +1,4 @@
-l1=[1,4,2,42,4,6,2,56,4,56,2]
-print(l1.index(i%2==0))
+g=(1,2,3,4,5)
+h=[i*i*i for i in g]
+ans = (list(zip(g,h)))
+print(ans)

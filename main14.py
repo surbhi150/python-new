@@ -33,4 +33,7 @@ g=input("Enter a string: ")
 if len(g)==0:
     print("The string is empty")
 else: 
-    g.endswith(len(g)-1)
+    print(g[0:-1])
+
+print("-------------------------------")
+print("-------------------------------")

@@ -1,4 +1,6 @@
-g=(1,2,3,4,5)
-h=[i*i*i for i in g]
-ans = (list(zip(g,h)))
-print(ans)
+l5=[input("Enter your friend name: ")]
+print(l5)
+s=input("Enter your best friend name: ")
+loc=int(input("Enter location at which you want to add best friend name: "))
+l5.insert(loc,s)
+print(l5)
